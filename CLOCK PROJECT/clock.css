@@ -1,0 +1,29 @@
+body{
+    text-align :center;
+  
+    color:white;
+   background :url(clock.jpg);
+  background-repeat: no-repeat;
+   background-size:center;
+    margin-top:200px;
+    line-height: 2;
+    box-sizing :border-box;
+}
+.OPTIONS div{
+    display:inline-block;
+   padding-right:10px;
+
+}
+.container{
+    border:solid 3px black;
+    width:70%;
+ margin-left:200px;
+   height:fit-content;
+ padding-top: 00px;
+}
+#demo{
+    font-size: 30px;
+}
+.current,p{
+    font-size: 30px;
+}

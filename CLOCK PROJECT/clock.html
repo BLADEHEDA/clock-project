@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock </title>
+</head>
+<link rel="stylesheet" href="clock.css">
+<body>
+    <div class="container">
+    <div id="createVC" class="time clocks">
+        <h1>DIGITAL CLOCK </h1>
+        <p>CURRENT TIME:<span class="current time"id="time">00:00:00</span></p> 
+        <p>CURRENT DATE:<span class="current date" id = "date"> 0-0-2000</span></p> 
+    </div>
+   
+       <div class="time"id="createFD"style="display: none"> 
+       <h1> countdown timer</h1>
+       <p id="demo"></p>
+      </div>
+            
+    
+       <div class="time" id="createLD"style="display: none"> 
+            <h1>Stopwatch</h1>
+            <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-reset">Reset</button> 
+      </div>
+   
+    <div id="button-container">
+        <button class="myButton" id="newLD">stop-watch</button>
+          <button class="myButton" id="newVC">clock </button>
+         <button class="myButton"id="newFD">timer</button>
+       </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="clock.js"></script>
+   
+</body>
+</html>
